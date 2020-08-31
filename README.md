@@ -86,7 +86,7 @@ The entire project is written in C++. In this project I learned about:
 In this project, students implement the MapReduce framework described in
 [this paper](https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf).
 
-The entire project is written in C++. In this proejct I learned how to:
+The entire project is written in C++. In this project I learned how to:
 
 * Shard data to spread processing load across a distributed system
 * Handle exceptions in C++
@@ -95,7 +95,7 @@ The entire project is written in C++. In this proejct I learned how to:
 * Conduct input validation in C++
 * Leverage C++ inheritance
 * Use C++ virtual functions
-* Implement robust C++ applications creating and handling asynchronous gRPC
-calls that recover from failures and timeouts
+* Implement robust C++ applications that create and handle asynchronous gRPC
+calls and recover from failures and timeouts
 * Architect large C++ projects
 * Execute map reduction on a large corpus of data
