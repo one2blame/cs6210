@@ -14,3 +14,8 @@ papers in this course, `./pdfs/paper_summaries`, and my notebook for the course
 , `./pdfs/cs6210.pdf`.
 
 ## Projects
+
+I worked on each project for this course in a separate repository. Each project
+is added to this repository as a submodule. The submodules in this repository
+are private to uphold the Georgia Institute of Technology
+[Academic Honor Code](https://osi.gatech.edu/content/honor-code).
