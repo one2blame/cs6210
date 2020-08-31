@@ -38,3 +38,24 @@ The entire project is written in C. In this project, I learned how to use
 * Acquire statistics for a host machine's memory usage
 * Acquire statistics for multiple virtual machine's memory usage
 * Balance virtual machine memory allocation based upon usage statistics
+
+### Project 2
+
+This project requires students to implement several barrier synchronization
+algorithms presented in the
+[paper](https://www.cs.rice.edu/~johnmc/papers/tocs91.pdf), "Algorithms for
+Scalable Synchronization on Shared-Memory Multiprocessors", by
+Mellor-Crummey and Scott.
+
+The entire project is written in C. In this project, I learned how use the
+[OpenMP](https://computing.llnl.gov/tutorials/openMP/) API to implement the
+synchronization barriers/algorithms described in the paper above in a shared
+memory environment. I then adapted the algorithms so that they would work in a
+distributed memory environement using [Open MPI](https://www.open-mpi.org/). I
+also learned how to:
+
+* Align shared memory data structures to cache lines to prevent false sharing
+* Utilize atomic builtins to implement synchronization primitives
+* Test and evaluate algorithms to acquire performance statistics
+* Use [gnuplot](http://www.gnuplot.info/) to graph data and make determinations
+about algorithm performance.
