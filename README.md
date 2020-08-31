@@ -51,11 +51,28 @@ The entire project is written in C. In this project, I learned how use the
 [OpenMP](https://computing.llnl.gov/tutorials/openMP/) API to implement the
 synchronization barriers/algorithms described in the paper above in a shared
 memory environment. I then adapted the algorithms so that they would work in a
-distributed memory environement using [Open MPI](https://www.open-mpi.org/). I
+distributed memory environment using [Open MPI](https://www.open-mpi.org/). I
 also learned how to:
 
 * Align shared memory data structures to cache lines to prevent false sharing
 * Utilize atomic builtins to implement synchronization primitives
 * Test and evaluate algorithms to acquire performance statistics
 * Use [gnuplot](http://www.gnuplot.info/) to graph data and make determinations
-about algorithm performance.
+about algorithm performance
+
+### Project 3
+
+This project requires students to implement a distributed service that
+resembles an online store. The store application will query the prices for a
+product on behalf of a client from a number of different registered vendors.
+The store leverages a threadpool to concurrently handle multiple client
+requests and makes asynchronous [gRPC](https://grpc.io/) calls,
+collating the prices for the requested product across all registered vendors.
+The store service returns this data to the client.
+
+The entire project is written in C++. In this project I learned about:
+
+* Multithreaded programming in C++
+* C++ lambda expressions
+* C++ futures
+* Creating and handling asynchronous gRPC calls
