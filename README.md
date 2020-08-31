@@ -76,6 +76,26 @@ The entire project is written in C++. In this project I learned about:
 * C++ lambda expressions
 * C++ futures
 * C++ templates
+* C++ class constructors and destructors
 * Creating and handling asynchronous gRPC calls
 * Structuring projects with the CMake build system
 * Using the [vcpkg](https://github.com/microsoft/vcpkg) package manager
+
+### Project 4
+
+In this project, students implement the MapReduce framework described in
+[this paper](https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf).
+
+The entire project is written in C++. In this proejct I learned how to:
+
+* Shard data to spread processing load across a distributed system
+* Handle exceptions in C++
+* Use advanced file system operations in C++
+* Read configuration files with C++
+* Conduct input validation in C++
+* Leverage C++ inheritance
+* Use C++ virtual functions
+* Implement robust C++ applications creating and handling asynchronous gRPC
+calls that recover from failures and timeouts
+* Architect large C++ projects
+* Execute map reduction on a large corpus of data
