@@ -75,4 +75,7 @@ The entire project is written in C++. In this project I learned about:
 * Multithreaded programming in C++
 * C++ lambda expressions
 * C++ futures
+* C++ templates
 * Creating and handling asynchronous gRPC calls
+* Structuring projects with the CMake build system
+* Using the [vcpkg](https://github.com/microsoft/vcpkg) package manager
